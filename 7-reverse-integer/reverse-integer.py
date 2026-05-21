@@ -3,7 +3,8 @@ class Solution:
         OriginalX=x
         x=abs(OriginalX)
         rev=int(str(x)[::-1])
-        if rev<-2147483648 or rev>2147483647:
+        limit=pow(2,31)
+        if rev<-limit or rev>limit:
             return 0
         if (OriginalX>0):
             return rev
