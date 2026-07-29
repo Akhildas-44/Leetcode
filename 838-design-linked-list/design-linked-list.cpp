@@ -71,16 +71,7 @@ public:
         curr->next=curr->next->next;
         delete Todelete;
         size--;
-        //~ MyLinkedList()
-        //{
-           //ListNode* curr=dummy;
-            //while(curr!=nullptr)
-           // {
-           //     ListNode* nextNode=curr->next;
-           //     delete curr;
-            //    curr=nextNode;
-           // }
-       // }
+        
         
     }
 };
